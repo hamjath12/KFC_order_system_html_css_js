@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+.header{
+    background-image: url(../image/bg1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    /* background-color: red; */
+    color: red;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    /* margin-bottom: 50px; */
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-top: 400px;
+    padding: 10px;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    overflow: hidden;
+    /* border: 2px solid black; */
+    background-color: grey;
+    color: white;
+    width: 100%;
+    margin-bottom: 100px;
+    
+    
+    
+}
+.nav ul li a{
+    margin-left: 150px;
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+.order-form {
+    background-image: url(../image/bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.order-form h2 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.order-form label, .order-form select, .order-form input {
+    display: block;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+.order-form select, .order-form input {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.order-form button {
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.container table,tr{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+.container  tr,td{
+    /* border: 2px solid black; */
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.container1 table,tr{
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.container1  tr,td{
+    border: 2px solid black;
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
